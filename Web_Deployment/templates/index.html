@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>HTML practice</title>
+
+    <script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></scri
+    pt>
+    <script type="text/javascript" src="main.js"></script>
+
+  </head>
+
+  <body>
+
+    <div>
+     <div class="header">
+      <div>Encabezado</div>
+     </div>
+    </div>
+
+    <h2>Segundo nivel</h2>
+    <h3>Tercer nivel... y así hasta el cinco</h3>
+
+    <p>Párrafos XD</p>
+Something Something <br>
+
+Aquí una línea separadora
+<hr>
+
+<h1>Lista desordenada</h1>
+<ul>
+  <li>Adiddas</li>
+  <li>Nike</li>
+  <li>Reebook</li>
+  <li>Puma</li>
+
+  </ul>
+Para ordenar la Lista <br>
+<ol>
+  <li>Adiddas</li>
+  <li>Nike</li>
+  <li>Reebook</li>
+  <li>Puma</li>
+</ol>
+
+<h1>Página de contacto</h1>
+<ul>
+  <li> <a href="templates/index.html"> Inicio </a> </li>
+  <li> <a href="templates/contacto.html"> Contacto </a> </li>
+  <li> <a href="templates/cascada.html"> CSS </a></li>
+</ul>
+
+<h1 id="header">Esto es JavaScript</h1>
+
+<script>
+    document.body.appendChild(document.createTextNode('Hola Mundo!'));
+
+    var h1 = document.getElementById('header'); // contiene la referencia al tag <h1>
+    h1 = document.getElementsByTagName('h1')[0]; // accediendo al mismo elemento <h1>
+</script>
+
+<noscript>Tu navegador no admite JavaScript, o JavaScript está deshabilitado.</noscript>
+
+  </body>
+</html>

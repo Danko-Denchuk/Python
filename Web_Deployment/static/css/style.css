@@ -1,0 +1,63 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  height: 2000px;
+  margin: 0;
+  background-color: orange;
+  background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+#container{
+  width: 70%;
+  margin: 0px auto;
+}
+
+.header{
+  font-size: 30px;
+  color: #FFFFFF;
+  border: 1px dashed orange;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+nav{
+  background: lightblue;
+  height: 50px;
+
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  margin: 10px;
+  line-height: 30px;
+}
+.sticky{
+font-size: 15px;
+ color: #000000;
+ border: 1px solid black;
+ position: fixed;
+ height: 50px;
+ width: 100%;
+ transition: all 0.4s ease;
+}
+
+.clearfix{
+  clear:both;
+}
+
+#content{
+  float: left;
+}
+
+aside{
+  float: left;
+}
+
+}
+.article{
+
+}
