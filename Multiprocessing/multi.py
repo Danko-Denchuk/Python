@@ -14,8 +14,10 @@ def evenno(x):
 if __name__ == '__main__':
     my_process1 = Process(target=cube, args=('x',))
     my_process2 = Process(target=evenno, args=('x',))
+
     my_process1.start()
     my_process2.start()
+    
     my_process1.join()
     my_process2.join()
 print ("Done")
